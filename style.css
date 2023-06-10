@@ -1,0 +1,505 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Charlie Text, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Noto Sans, Ubuntu, Droid Sans, Helvetica Neue, sans-serif;
+}
+nav{
+    background-color: #ffffff;
+
+}
+.header{
+    display: flex;
+    align-items: center;
+    padding: 20px 90px;
+    color: #0052cc;
+}
+.middle{
+    padding-left: -10px;
+    padding-top: 5px;
+    
+}
+.middle #list a{
+    padding-left: 40px;
+}
+#list{
+    display: flex;
+    list-style-type: none;
+}
+#list a{
+    text-decoration: none;
+    color:  #0052cc;
+}
+.right{
+    margin-left: auto;
+    margin-right: 10px;
+    padding-top: 4px;
+}
+.right a{
+    text-decoration: none;
+    color:  #0052cc;
+    margin-right: 30px;
+}
+.right #btn{
+    width: 90px;
+    height: 39px;
+    border-radius: 4px;
+    border: 1px solid blue;
+    padding: 2px 2px;
+    border-color:  #0052cc;
+    background: transparent;
+    color:  #0052cc;
+    font-weight: 630;
+    
+}
+/* ---------------------nav---------------------- */
+.container {
+    text-align: center;
+    padding-top: 76px;
+    align-items: center;
+}
+.container p{
+    padding-top: 30px;
+    font-size: larger;
+    font-weight: 250px;
+}
+.container h1{
+    font-size: 40px;
+    font-weight: 500;
+}
+#btn2{
+    background-color:#0052cc;
+    color: #ffffff;
+    border-radius: 4px;
+    height: 40px;
+    width: 100px;
+    margin-top: 20px;
+    border: none;
+    font-weight: 450;
+    font-size: large;
+}
+
+.container #bodyimg{
+    margin-top: 48px;
+    width: 87%;
+}
+.container .cloud{
+    /* width: 10%; */
+    /* padding-left: 300px; */
+    display: flex;
+    margin-left: 300px;
+
+}
+.cloud_flex{
+    display: flex;
+    padding-top: 90px;
+
+}
+.cloud_flex a{
+    text-decoration: none;
+    color: #0052cc;
+    
+}
+.cloud_a{
+    display: flex;
+    justify-content: start;
+    width: fit-content;
+
+}
+.cloud_a:hover #arrow{
+    margin-left: 5px;
+    transition: 0.5s;
+}
+.cloud_a:hover #aspan{
+    border-bottom: 2px solid #0052cc;
+}
+.cloud-text .h2{
+    padding-right: 185px;
+}
+.header{
+    box-shadow: 0px 6px 15px 3px #a9b6cb;
+}
+.container2{
+    background-color: #091E42;
+    
+}
+.container2 p{
+    color: white;
+    font-size: 13px;
+}
+.container2 h1{
+    color: white;
+    padding-top: 15px;
+    font-size: 38px;
+}
+.container2 #tick{
+padding-top: 100px;
+}
+.raw{
+    display: flex;
+
+}
+.container2 .text{
+    width: 800px;
+    padding-top: 200px;
+    font-weight: 400;
+
+}
+.container2 .text p{
+    font-size: 16px;
+    text-align: left;
+    padding-left: 67px;
+    
+}
+.container2 .raw a{
+    text-decoration: none;
+    color: white;
+    padding-left: 67px;
+    
+}
+
+
+
+
+.flexcloud_flex a{
+    text-decoration: none;
+    color: #0052cc;
+    
+}
+.flexcloud_a{
+    display: flex;
+    justify-content: start;
+    width: fit-content;
+
+}
+.flexcloud_a:hover #arrow{
+    margin-left: 5px;
+    transition: 0.5s;
+}
+.flexcloud_a:hover #aspan{
+    border-bottom: 2px solid #ffffff;
+}
+.container3{
+    background-color: #FFFFFF;
+    color: #091E42;
+    height: 1000px;
+}
+.container3 .top{
+    padding-top: 80px;
+}
+.container3 .top p{
+    font-size: 13px;
+}
+.container3 .middle h1{
+    font-weight: 600;
+    font-size: 35px;
+}
+.container3 .middle p{
+    font-size: 19px;
+    font-weight: 500;
+    color: #425284;
+
+}
+.container4{
+    background-color: #e0ecff93;
+    height: 1000px;
+}
+.container4 .top{
+    padding-top: 80px;
+}
+.container4 .top h3{
+    color: #425384c0;
+    font-weight: 500;
+}
+.container4 .top p{
+    color: #425384c0;
+    font-size: 13px;
+}
+.container5{
+    background-color: #091E42;
+    /* height: 800px; */
+}
+.mmm{
+    display: flex;
+    justify-content: center;
+}
+.img-div{
+    display: flex;
+    width: 1200px;
+    position: relative;
+    top: -200px;
+    height: 440px;
+}
+
+.img-div .left{
+    width: 500px;
+    padding: 100px 0px 100px 100px;
+    text-align: left;
+}
+.container5 .folder-flex{
+    display: flex;
+    /* width: 1000px; */
+    justify-content: center;
+    padding-left: 100px;
+}
+.container5 .folder-flex .text{
+    text-align: left;
+    color: white;
+    padding-left: 30px;
+}
+.container5 .folder-flex .text a{
+    text-decoration: none;
+     color: white;
+
+}
+.container5 .folder-flex .text h1{
+    font-size: 2.3rem;
+}
+.container5 .folder-flex .text p{
+    font-size: 1.0rem;
+    font-weight: 400;
+}
+.container6{
+    background-color: #F4F5F7;
+    height: 430px;
+}
+.container6 .top{
+    text-align: left;
+    padding-top: 40px;
+    padding-left: 125px;
+}
+.container6 .top #p{
+    font-size: 0.75rem;
+    color: #425284;
+}
+.container6 .top #p1{
+    font-size: 1rem;
+    color: #425284;
+}
+#c6h{
+    font-size: 2.25rem;
+    color:#091E42;
+}
+.container6 .top a{
+    text-decoration: none;
+    color: #0052cc;
+}
+.container6 #img1{
+    position: relative;
+    top: -245px;
+    right: 125px;
+}
+.container6 #img2{
+    position: relative;
+    top: -315px;
+    left: 970px;
+}
+.container6 #img3{
+    position: relative;
+    top: -354px;
+    left: 390px;
+}
+.container6 #img4{
+    position: relative;
+    top: -190px;
+    left: 480px;
+}
+.container6 #img5{
+    position: relative;
+    top: 50px;
+    left: 230px;
+}
+.container6 #img6{
+    position: relative;
+    left: 380px;
+    bottom: 75px;
+}
+.container6 #img7{
+    position: relative;
+    right: 390px;
+}
+.container6 #img8{
+    position: relative;
+    right: 900px;
+}
+.container7{
+    height: 890px;
+    background-color: #fff;
+}
+.container7 .top{
+    padding-top: 80px;
+    color: #091E42;
+    font-size: "Charlie Display", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Noto Sans", Ubuntu, "Droid Sans", "Helvetica Neue", sans-serif;
+}
+.container7 .top h1{
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 48px;
+    font-style: normal;
+}
+.container7 .top img{
+    padding: 30px;
+}
+.container7 .bottom{
+    background-color: #091E42;
+    height: 460px;
+    width: 1150px;
+    margin-left: 100px;
+    color: #fff;
+    text-align: left;
+}
+.container7 .bottom p{
+    font-size: 10px;
+    padding-left: 30px;
+}
+.container7 .bottom h1{
+    font-size: 35px;
+    font-weight: 300;
+    padding-left: 30px;
+}
+.container7 .bottom h5{
+    padding-left: 30px;
+}
+.container7 .bottom img{
+    padding-left: 30px;
+    width: 40px;
+}
+.container8{
+    height: 650px;
+    color: #091E42;
+    background-color: #fff;
+}
+.container8 .top{
+    padding-top: 30px;
+    font-size: 2.25rem;
+    line-height: 1.33333333;
+}
+.container8 .bottom{
+    display: flex;
+    padding-top: 50px;
+    text-align: left;
+    justify-content: center;
+}
+.container8 .bottom img{
+   width: 350px;
+   margin: 15px;
+}
+.container8 .bottom h1{
+    font-size: 25px;
+}
+.container8 .bottom p{
+    font-size: 15px;
+}
+.container8 .bottom a{
+    text-decoration: none;
+    color: #0052cc;
+}
+.container9{
+    background-color: #091E42;    
+    justify-content: center;
+    text-align: center;
+    color: white;
+    padding-top: 69px;
+}
+.container9 button{
+    background-color: #0052cc;
+    color: white;
+    width: 130px;
+    height: 40px;
+    border-radius: 3px;
+    border: none;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+footer{
+    
+    padding: 50px 100px;
+    background-color: #F4F5F7;
+
+}
+
+.footer{
+    display: flex;
+    text-align: left;
+    
+    border-bottom: 1px solid rgba(123, 117, 117, 0.754);
+    height: 200px;
+    }
+.footer h3{
+    font-size: 18px;
+    color: #253858;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    
+
+
+}
+.footer p{
+    font-size: 13px;
+    color: #42526e;
+}
+.footer .left{
+    padding-right: 80px;
+}
+.footer .middle{
+    padding-bottom: 130px;
+} 
+
+.f
+/* .footer .right input{ */
+    width: 480px;
+    height: 38px;
+    padding-left: 10px;
+    border: 1px solid grey;
+}
+.footer .right #btn{
+    color: #0052cc;
+    margin-left: 13px;
+    background: transparent;
+    width: 120px;
+    height: 40px;
+    border-color: #0052cc;
+    border-radius: 3px;
+    font-size: 17px;
+    font-weight: 500;
+}
+.footer .right h4{
+    color: #42526e;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+.footer .right h5{
+    padding-left: 350px;
+    padding-top: 23px;
+    color: #42526e;
+    line-height: 16px;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+}
+footer .bottom {
+    display: flex;
+    padding-top: 30px;
+    color: #42526e;
+
+}
+footer .bottom a{
+    padding-left: 400px;
+    text-decoration: none;
+    color: #0052cc;
+    padding-top: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
